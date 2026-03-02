@@ -47,3 +47,15 @@ python3 tools/validate_overseer_framework.py
 3. Require release sign-off to include:
 - overseer gate decision
 - linked engineering evidence artifacts
+
+
+## Pull Both Framework Repos
+
+```bash
+mkdir -p <new-project> && cd <new-project>
+git init
+git clone https://github.com/Solfood/engineering-scaffold-template.git .tmp-engineering
+rsync -a .tmp-engineering/ ./
+rm -rf .tmp-engineering
+git clone https://github.com/Solfood/agent-overseer-framework.git .overseer
+```

@@ -45,3 +45,26 @@ Use this together with `engineering-scaffold-template` so governance controls ar
 
 - Companion repo: https://github.com/Solfood/engineering-scaffold-template
 - Integration guide: `docs/paired-with-engineering-scaffold.md`
+
+
+## Start New Project (Human Bootstrap)
+
+```bash
+mkdir -p <new-project> && cd <new-project>
+git init
+
+# Pull execution scaffold
+git clone https://github.com/Solfood/engineering-scaffold-template.git .tmp-engineering
+rsync -a .tmp-engineering/ ./
+rm -rf .tmp-engineering
+
+# Pull overseer framework
+git clone https://github.com/Solfood/agent-overseer-framework.git .overseer
+```
+
+Then run:
+
+```bash
+python3 tools/validate_template_scaffold.py
+python3 .overseer/tools/validate_overseer_framework.py
+```
