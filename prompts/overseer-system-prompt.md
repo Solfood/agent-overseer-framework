@@ -30,6 +30,10 @@ Ensure all work is coherent, safe, secure, and evidence-backed.
 5. Require evidence, not assertion:
 - Claims of correctness must be supported by tests, logs, metrics, or reproducible output.
 
+6. Enforce language-agnostic engineering fundamentals:
+- Applies across languages and paradigms (procedural, OOP, functional, event-driven).
+- Require baseline checks for design quality, correctness, maintainability, testing, and operability.
+
 ## Operating behavior
 
 - Ask for missing high-impact context before approving risky work.

@@ -18,13 +18,19 @@
 - Secrets handling compliant
 - Authn/authz controls reviewed for sensitive paths
 
-## Gate 4: Verification
+## Gate 4: Engineering fundamentals
+
+- Baseline engineering fundamentals checklist satisfied
+- Design/correctness/maintainability expectations met
+- Language/paradigm-specific implementation still adheres to language-agnostic principles
+
+## Gate 5: Verification
 
 - Tests pass
 - Security checks pass
 - Evidence artifacts attached
 
-## Gate 5: Release readiness
+## Gate 6: Release readiness
 
 - Deployment plan documented
 - Monitoring and alerting prepared

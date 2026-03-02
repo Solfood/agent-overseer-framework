@@ -15,6 +15,7 @@ This framework defines how an Overseer Agent governs work so teams can move fast
 
 - Overseer system prompt and operating protocol
 - Governance policies and gate criteria
+- Language-agnostic engineering fundamentals baseline
 - Security/risk baselines and threat modeling templates
 - Work-intake and release-checklist templates
 - Validation script to ensure framework integrity

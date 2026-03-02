@@ -11,6 +11,7 @@ REQUIRED_FILES = [
     'docs/charter.md',
     'docs/operating-model.md',
     'docs/review-gates.md',
+    'docs/engineering-fundamentals.md',
     'docs/security-baseline.md',
     'docs/risk-model.md',
     'docs/handoff-protocol.md',
@@ -53,8 +54,12 @@ def main() -> None:
 
     prompt = ROOT / 'prompts/overseer-system-prompt.md'
     must_contain(prompt, 'Block unsafe releases')
+    must_contain(prompt, 'language-agnostic engineering fundamentals')
     must_contain(prompt, 'Require evidence, not assertion')
 
+    fundamentals = ROOT / 'docs/engineering-fundamentals.md'
+    must_contain(fundamentals, 'languages and paradigms')
+    must_contain(fundamentals, 'Correctness')
     print('OK: overseer framework validation passed')
 
 
