@@ -38,3 +38,12 @@ python3 tools/validate_overseer_framework.py
 - Every design decision: decision record + alternatives
 - Every release: security and readiness gates
 - Every incident: postmortem using the same evidence model
+
+
+## Paired adoption (recommended)
+
+1. Install this framework as governance layer (`.overseer/` or `governance/`).
+2. Install `engineering-scaffold-template` for execution lifecycle structure.
+3. Require release sign-off to include:
+- overseer gate decision
+- linked engineering evidence artifacts

@@ -38,3 +38,10 @@ No high-impact change should ship without explicit evidence of:
 - Security review
 - Risk treatment
 - Verification results
+
+## Companion Framework
+
+Use this together with `engineering-scaffold-template` so governance controls are applied to a concrete execution workflow.
+
+- Companion repo: https://github.com/Solfood/engineering-scaffold-template
+- Integration guide: `docs/paired-with-engineering-scaffold.md`
