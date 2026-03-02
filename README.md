@@ -68,3 +68,7 @@ Then run:
 python3 tools/validate_template_scaffold.py
 python3 .overseer/tools/validate_overseer_framework.py
 ```
+
+## Continuation Prompt
+
+- Use `docs/new-chat-continuation-prompt.md` for governance-aware continuity in new chats.
