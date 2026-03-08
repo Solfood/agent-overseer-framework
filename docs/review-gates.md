@@ -29,12 +29,15 @@
 - Tests pass
 - Security checks pass
 - Evidence artifacts attached
+- Long-running infrastructure actions use a credential/session strategy that will survive the operation, or a documented recovery path exists (for example stale-lock, errored-state, or retry guidance)
 
 ## Gate 6: Release readiness
 
 - Deployment plan documented
 - Monitoring and alerting prepared
 - On-call/owner identified
+- Release package audited for local-only artifacts (state files, secret overrides, caches, generated build outputs)
+- Infrastructure teardown plan distinguishes application resources from shared/bootstrap backend resources
 
 ## Block conditions
 

@@ -7,6 +7,7 @@
 - Risks and mitigations
 - Evidence artifacts
 - Next actions and owners
+- For interrupted infrastructure work: backend state location, lock status, credential freshness, and any recovery artifacts (for example errored state files)
 
 ## Handoff quality bar
 
