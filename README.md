@@ -30,6 +30,13 @@ This framework defines how an Overseer Agent governs work so teams can move fast
    - `python3 tools/validate_overseer_framework.py`
 5. Wire your execution agent to `prompts/overseer-system-prompt.md`.
 
+## Commit Hygiene
+
+This framework defines oversight structure, but not every intermediate planning artifact needs to live forever in the product repo.
+
+- Keep durable governance records and review evidence.
+- Avoid committing temporary agent working notes, generated files, and other local-only context unless they provide ongoing value to the project.
+
 ## Core Principle
 
 No high-impact change should ship without explicit evidence of:

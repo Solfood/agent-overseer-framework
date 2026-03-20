@@ -32,6 +32,22 @@
 python3 tools/validate_overseer_framework.py
 ```
 
+## Repo content guidance
+
+This framework works best when governance artifacts stay intentional instead of expanding into general project clutter.
+
+- Keep committed artifacts that drive real oversight:
+  - policy
+  - decision records
+  - threat models
+  - release-readiness evidence
+- Keep local or temporary:
+  - agent scratch notes
+  - session-only planning artifacts
+  - generated files and runtime state
+
+When paired with an execution scaffold, teams should decide which materials are durable repo records and which should remain local working context.
+
 ## Recommended operating cadence
 
 - Every task: intake + risk classification
